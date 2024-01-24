@@ -11,5 +11,5 @@
     return a^^2
 ```
 ### Please add the code files in respective folders 
-### Please add notes while commiting code in github
+### Please add notes while commiting code in github 
  
