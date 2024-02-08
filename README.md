@@ -140,6 +140,29 @@ Please check the repeated behavior in below tree
 
 ![alt text](<data/fig/cartype 2 _ analomy_repeated behavoir.png>)
 
+### Car Type 2P
+
+![alt text](data/fig/cartype2P.png)
+
+### Car Type 3
+
+![alt text](data/fig/cartype3.png)
+
+### Car Type 4
+
+![alt text](data/fig/cartype4.png)
+
+### Car Type 5
+
+![alt text](data/fig/cartype5.png)
+
+### Car Type 6
+
+![alt text](data/fig/cartype6.png)
+
+
+
+
 
 
 
