@@ -107,7 +107,9 @@ Found 3 cars with unusual behavior the below tree doesn't include those 3 cars.
 
 ![alt text](data/fig/cartype1_without_analomy.png)
 
-#### Analomy
+#### Anomaly
+
+Three cars of type 1 have unusual behavior
 
 | S.No|  Car id  |  Entry Time  | Exit Time  |  N Gates | N Entrance Gates  | Total Time | Notes |
 |---|---|---|---|---|---|---|---|
@@ -116,9 +118,31 @@ Found 3 cars with unusual behavior the below tree doesn't include those 3 cars.
 |3|  20162904122951-717 | 2016-03-04 12:29:51  |  2016-04-10 22:14:22 | 36 | 12 | 37 days 09:44:31 |Entered and exited from entrance-3 six time, but each time the car-id is same |
 
 
-* Check the below graph for repeated behavior for (1) and (2) 
+Check the below graph for repeated behavior for (1) and (2) 
 
 ![alt text](<data/fig/cartype 1 _two analomy repeated behavoir  .png>)
+
+### Car Type 2 
+
+Found 1 cars with unusual behavior the below tree doesn't include that cars.
+
+![alt text](data/fig/cartype2_without_analomy.png)
+
+#### Anomaly
+
+One car of type 2 have unusual behavior
+
+|  Car id  |  Entry Time  | Exit Time  |  N Gates | N Entrance Gates  | Total Time | Notes |
+|---|---|---|---|---|---|---|
+| 20154519024544-322  | 2015-06-19 14:45:44  | 2015-10-05 00:36:54 | 281 | 32 | 107 days 09:51:10 | First Entered from Entrance-1 and exited from entrance-4.then Entered and exited from entrance-4 fifteen times, but each time the car-id is same  |
+
+Please check the repeated behavior in below tree
+
+![alt text](<data/fig/cartype 2 _ analomy_repeated behavoir.png>)
+
+
+
+
 
 
 
