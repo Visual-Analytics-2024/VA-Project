@@ -88,3 +88,16 @@ Gate-name:  name of the sensors taking the reading.
 
 ![alt text](data/fig/traffic_flux_at_each_gate_over_week.png)
 
+## Network Analysis
+
+### Car Type 1
+
+* Edge width shows number of cars passing
+* Blue nodes are stop were car just passed 
+* Green nodes are nodes were car have two consecutive readings 
+* Intensity of green color represents average time between two consecutive readings.
+
+![alt text](data/fig/DirectionalGraph.png)
+
+
+
