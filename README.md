@@ -1,15 +1,61 @@
 # VA-Project
-### Please upload the code in your branch and not in the main branch
-### Merge code to main branch only if anyother teammate apart from you is present for the merging 
-### Please add docstrings to all function. Example 
-```
- def square(a):
-    r"""returns square of a number
-    Args:
-        a (int or float) : number that needs to be squared 
-    """
-    return a^^2
-```
-### Please add the code files in respective folders 
-### Please add notes while commiting code in github 
- 
+
+## Description
+
+Mistford, a mid-sized city near a nature preserve, faces a decline in the population of a local bird species. Mitch Vogel, an ornithology student, seeks to understand the cause. He notices unusual vehicle behaviors in the nearby nature preserve and wants help analyzing vehicle data to aid his investigation.
+
+## Ground Truth 
+
+There is a truck that visits a Ranger Station in a fairly remote part of the Preserve periodically throughout the dataset 
+timeline that is illicitly dumping factory waste. It is registering in the data as a non-Ranger vehicle, visiting a Ranger-Stop. The dumping has a slight effect on the visits to the campground nearby
+
+## Data
+
+The provided dataset consists of traffic data collected from sensors placed around the Boonsong Lekagul Nature Preserve. These sensors track vehicles entering and exiting the preserve through official entrances, as well as their movements within the preserve.
+
+When vehicles enter the Preserve, they must proceed through a gate and obtain a pass.  The gate categorizes vehicles as follows:
+1.	2 axle car (or motorcycle)
+2.	2 axle truck
+3.	3 axle truck
+4.	4 axle (and above) truck
+5.	2 axle bus
+6.	3 axle bus
+Vehicles receiving a pass with a “P” appended to their category are park service vehicles that have access to all parts of the Preserve.  Currently, the Preserve vehicles are only 2 axle trucks, so they are designated as “2P” vehicle type.
+There are five types of sensors recording data.  
+1.	Entrances.  All vehicles pass through an Entrance when entering or leaving the Preserve. 
+2.	General-gates.  All vehicles may pass through these gates.  These sensors provide valuable information for the Preserve Rangers trying to understand the flow of traffic through the Preserve. 
+3.	Gates.  These are gates that prevent general traffic from passing.  Preserve Ranger vehicles have tags that allow them to pass through these gates to inspect or perform work on the roadway beyond.  
+4.	Ranger-stops.  These sensors represent working areas for the Rangers, so you will often see a Ranger-stop sensor at the end of a road managed by a Gate.  Some Ranger-stops are in other locations however, so these sensors record all traffic passing by. 
+5.	Camping.  These sensors record visitors to the Preserve camping areas.  Visitors pass by these entering and exiting a campground. 
+The Preserve Map
+The contractors working with the Nature Preserve rangers have provided a map that presents the Preserve in terms of a 200x200 gridded area. The grid is oriented with north at the top of the map. Grid location (0,0) is at the lower left corner of the map (the SW corner). They have superimposed both the roadways and the sensor locations on this grid.  The map shows an area 12 miles x 12 miles.  
+Roadways are indicated by white colored pixels on the map.  Each sensor type has its own unique color: Entrances (green), General-gates (blue), Gates (red), Ranger-stops (yellow), and Camping (orange).
+Other information about the dataset:
+1.	Traffic either passes through the Preserve, stay as day campers, or stay as extended campers.
+2.	Preserve Rangers stay at the ranger-base toward the southeast of the Preserve when they are not working in the Preserve.
+3.	The speed limit through the Preserve is 25 mph.
+4.	The Preserve area does not observe “Daylight Savings Time”.
+5.	The roadways traveling southward from Entrances 3 and 4 do continue to other roadways outside of the Preserve area, but these are not shown on the map.  Vehicle data will not reflect travel beyond the Preserve in this direction.  
+
+Data Snippet  (.csv format)
+Timestamp,car-id,car-type,gate-name
+2015-05-01 00:15:13,20151501121513-39,2,entrance4
+2015-05-01 00:32:47,20151501121513-39,2,entrance2
+2015-05-01 01:12:42,20151201011242-330,5,entrance0
+2015-05-01 01:14:22,20151201011242-330,5,general-gate1
+2015-05-01 01:17:13,20151201011242-330,5,ranger-stop2
+2015-05-01 01:20:36,20151201011242-330,5,ranger-stop0
+2015-05-01 01:24:11,20151201011242-330,5,general-gate2
+2015-05-01 01:46:16,20151201011242-330,5,entrance2
+2015-05-01 01:55:25,20155501015525-264,1,entrance0
+2015-05-01 01:56:53,20155501015525-264,1,general-gate1
+2015-05-01 01:59:27,20155501015525-264,1,ranger-stop2
+2015-05-01 02:02:27,20155501015525-264,1,ranger-stop0
+2015-05-01 02:05:39,20155501015525-264,1,general-gate2
+
+
+Data Fields:
+Timestamp:  the date and time the sensor reading was taken
+Car-id:  the assigned car ID from the entry gate
+Car-type: Vehicle type as enumerated above.  “P” is appended when it is a park vehicle.
+Gate-name:  name of the sensors taking the reading.  See the map. 
