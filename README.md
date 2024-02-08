@@ -164,6 +164,13 @@ Please check the repeated behavior in below tree
 
 ## Distribution Analysis 
 
+TODO: Add distribution graph and box plots 
+
+## Self Loop Analysis
+
+Here, self loop means if any car has two consecutive entries at a same gate. The aim here is to see if cars spent time at a specific gate. If so, how much time. 
+The Assumption: If the car has two consecutive readings at the same gate it will be considered to have spent time at that gate.
+
 ### Time spent at a site
 
 #### Camping site
@@ -174,11 +181,16 @@ Please check the repeated behavior in below tree
 
 ![alt text](data/fig/non_camping_distribution.png)
 
-TODO: Add more distribution graph and box plots 
+### Heat Map 
 
+#### Camping sites aggregated over a month
 
+The value in each entry = $/frac{Total time spent by cars at that site in that month}{Total cars who stayed at that site on that month}$
+The color of each entry represent Total cars who stayed at that gate on that month.
 
+* Note: Total cars recorded at a site is different from total cars that stayed at the site.
 
+![alt text](data/fig/heatmap.png)
 
 
 
