@@ -51,9 +51,13 @@ Data Snippet  (.csv format)
 
 
 Data Fields:
+
 Timestamp:  the date and time the sensor reading was taken
+
 Car-id:  the assigned car ID from the entry gate
+
 Car-type: Vehicle type as enumerated above.  “P” is appended when it is a park vehicle.
+
 Gate-name:  name of the sensors taking the reading. 
 
 ## Time Analysis of Traffic Flux
@@ -169,6 +173,7 @@ TODO: Add distribution graph and box plots
 ## Self Loop Analysis
 
 Here, self loop means if any car has two consecutive entries at a same gate. The aim here is to see if cars spent time at a specific gate. If so, how much time. 
+
 The Assumption: If the car has two consecutive readings at the same gate it will be considered to have spent time at that gate.
 
 ### Time spent at a site
