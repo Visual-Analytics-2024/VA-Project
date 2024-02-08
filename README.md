@@ -185,7 +185,7 @@ The Assumption: If the car has two consecutive readings at the same gate it will
 
 #### Camping sites aggregated over a month
 
-The value in each entry = $/frac{Total time spent by cars at that site in that month}{Total cars who stayed at that site on that month}$
+The value in each entry = $\frac{Total time spent by cars at that site in that month}{Total cars who stayed at that site on that month}$
 The color of each entry represent Total cars who stayed at that gate on that month.
 
 * Note: Total cars recorded at a site is different from total cars that stayed at the site.
