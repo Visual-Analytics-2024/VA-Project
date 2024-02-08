@@ -160,6 +160,23 @@ Please check the repeated behavior in below tree
 
 ![alt text](data/fig/cartype6.png)
 
+* Note : Car Type 5 and Car Type 6 follow the same route tree
+
+## Distribution Analysis 
+
+### Time spent at a site
+
+#### Camping site
+
+![alt text](data/fig/camping_distribution.png)
+
+#### Non Camping sites
+
+![alt text](data/fig/non_camping_distribution.png)
+
+TODO: Add more distribution graph and box plots 
+
+
 
 
 
