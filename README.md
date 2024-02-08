@@ -66,15 +66,25 @@ Gate-name:  name of the sensors taking the reading.
 
 ### Traffic Flux by Car Type
 
-#### Aggregated by one day
+#### Aggregated over a day
+
+![alt text](data/fig/traffic_flux_gate_over_day_for_each_cartype.png)
+
+* add insights
+
+#### Aggregated over a week
+
+![alt text](data/fig/traffic_flux_gate_over_week_for_each_cartype.png)
+
+* add insights
+
+### Traffic Flux at each Gate
+
+#### Aggregated over a day
 
 ![alt text](data/fig/traffic_flux_at_each_gate_over_day_for_each_gate.png)
 
-* add insights
-
-#### Aggregated by one week
+#### Aggregated over a week
 
 ![alt text](data/fig/traffic_flux_at_each_gate_over_week.png)
-
-* add insights
 
