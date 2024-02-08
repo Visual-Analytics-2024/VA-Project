@@ -103,7 +103,7 @@ Gate-name:  name of the sensors taking the reading.
 
 ## Car Type 1
 
-![alt text](data/fig/cartype1_analomy.png)
+![alt text](data/fig/cartype1.png)
 
 
 
