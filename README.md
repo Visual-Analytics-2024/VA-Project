@@ -11,6 +11,8 @@ timeline that is illicitly dumping factory waste. It is registering in the data 
 
 ## Data
 
+Download the data [here](https://drive.google.com/file/d/1NEEWqkvGjYIHV9OP1xp2IZi9CAcg5HEC/view?usp=sharing)
+
 The provided dataset consists of traffic data collected from sensors placed around the Boonsong Lekagul Nature Preserve. These sensors track vehicles entering and exiting the preserve through official entrances, as well as their movements within the preserve.
 
 When vehicles enter the Preserve, they must proceed through a gate and obtain a pass.  The gate categorizes vehicles as follows:
@@ -41,7 +43,7 @@ Other information about the dataset:
 
 Map 
 
-![alt text](data/data_snipet.JPG)
+![alt text](<data/Lekagul Roadways labeled v2.jpg>)
 
 Data Snippet  (.csv format)
 
