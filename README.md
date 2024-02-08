@@ -20,6 +20,7 @@ When vehicles enter the Preserve, they must proceed through a gate and obtain a 
 4.	4 axle (and above) truck
 5.	2 axle bus
 6.	3 axle bus
+
 Vehicles receiving a pass with a “P” appended to their category are park service vehicles that have access to all parts of the Preserve.  Currently, the Preserve vehicles are only 2 axle trucks, so they are designated as “2P” vehicle type.
 There are five types of sensors recording data.  
 1.	Entrances.  All vehicles pass through an Entrance when entering or leaving the Preserve. 
@@ -28,6 +29,7 @@ There are five types of sensors recording data.
 4.	Ranger-stops.  These sensors represent working areas for the Rangers, so you will often see a Ranger-stop sensor at the end of a road managed by a Gate.  Some Ranger-stops are in other locations however, so these sensors record all traffic passing by. 
 5.	Camping.  These sensors record visitors to the Preserve camping areas.  Visitors pass by these entering and exiting a campground. 
 The Preserve Map
+
 The contractors working with the Nature Preserve rangers have provided a map that presents the Preserve in terms of a 200x200 gridded area. The grid is oriented with north at the top of the map. Grid location (0,0) is at the lower left corner of the map (the SW corner). They have superimposed both the roadways and the sensor locations on this grid.  The map shows an area 12 miles x 12 miles.  
 Roadways are indicated by white colored pixels on the map.  Each sensor type has its own unique color: Entrances (green), General-gates (blue), Gates (red), Ranger-stops (yellow), and Camping (orange).
 Other information about the dataset:
@@ -36,6 +38,10 @@ Other information about the dataset:
 3.	The speed limit through the Preserve is 25 mph.
 4.	The Preserve area does not observe “Daylight Savings Time”.
 5.	The roadways traveling southward from Entrances 3 and 4 do continue to other roadways outside of the Preserve area, but these are not shown on the map.  Vehicle data will not reflect travel beyond the Preserve in this direction.  
+
+Map 
+
+![alt text](data/data_snipet.JPG)
 
 Data Snippet  (.csv format)
 
