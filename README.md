@@ -99,5 +99,11 @@ Gate-name:  name of the sensors taking the reading.
 
 ![alt text](data/fig/DirectionalGraph.png)
 
+## Route Analysis (Tree)
+
+## Car Type 1
+
+![alt text](data/fig/cartype1_analomy.png)
+
 
 
