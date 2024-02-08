@@ -54,4 +54,27 @@ Data Fields:
 Timestamp:  the date and time the sensor reading was taken
 Car-id:  the assigned car ID from the entry gate
 Car-type: Vehicle type as enumerated above.  “P” is appended when it is a park vehicle.
-Gate-name:  name of the sensors taking the reading.  See the map. 
+Gate-name:  name of the sensors taking the reading. 
+
+## Time Analysis of Traffic Flux
+
+### Mean and Std of Total Traffic Flux at each Gate
+
+![alt text](data/fig/mean_std_traffic_flux_gates.png)
+
+* Add insights 
+
+### Traffic Flux by Car Type
+
+#### Aggregated by one day
+
+![alt text](data/fig/traffic_flux_at_each_gate_over_day_for_each_gate.png)
+
+* add insights
+
+#### Aggregated by one week
+
+![alt text](data/fig/traffic_flux_at_each_gate_over_week.png)
+
+* add insights
+
