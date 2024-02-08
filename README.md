@@ -160,7 +160,7 @@ Please check the repeated behavior in below tree
 
 ![alt text](data/fig/cartype6.png)
 
-* Note : Car Type 5 and Car Type 6 follow the same route tree
+**Note : Car Type 5 and Car Type 6 follow the same route tree**
 
 ## Distribution Analysis 
 
@@ -192,6 +192,20 @@ The color of each entry represent Total cars who stayed at that gate on that mon
 * Note: Total cars recorded at a site is different from total cars that stayed at the site.
 
 ![alt text](data/fig/heatmap.png)
+
+## Analysing Ground Truth
+
+**Car type 4 passes ranger gates 3, 5 and 6. see below graph for traffic flux over time.**
+
+![alt text](data/fig/analomy_of_cartype_4_for_ranger_gates.png)
+
+**This Car always follows the same route. See below graph**
+
+![alt text](data/fig/analomy_route.png)
+
+
+
+
 
 
 
