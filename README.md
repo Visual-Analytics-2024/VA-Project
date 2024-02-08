@@ -101,9 +101,25 @@ Gate-name:  name of the sensors taking the reading.
 
 ## Route Analysis (Tree)
 
-## Car Type 1
+### Car Type 1
 
-![alt text](data/fig/cartype1.png)
+Found 3 cars with unusual behavior the below tree doesn't include those 3 cars.
+
+![alt text](data/fig/cartype1_without_analomy.png)
+
+#### Analomy
+
+| S.No|  Car id  |  Entry Time  | Exit Time  |  N Gates | N Entrance Gates  | Total Time | Notes |
+|---|---|---|---|---|---|---|---|
+|1| 20154112014114-381  | 2015-06-12 13:41:14  | 2015-07-26 23:00:51 | 98  | 14 | 44 days 09:19:37 | Entered and exited from entrance-0 seven times, but each time the car-id is same  |
+|2| 20155705025759-63  | 2015-06-05 14:57:59  |  2016-05-20 14:43:07 |  70 | 1 | 349 days 23:45:08 | Entered from entrance-0 and never left |
+|3|  20162904122951-717 | 2016-03-04 12:29:51  |  2016-04-10 22:14:22 | 36 | 12 | 37 days 09:44:31 |Entered and exited from entrance-3 six time, but each time the car-id is same |
+
+
+* Check the below graph for repeated behavior for (1) and (2) 
+
+![alt text](<data/fig/cartype 1 _two analomy repeated behavoir  .png>)
+
 
 
 
