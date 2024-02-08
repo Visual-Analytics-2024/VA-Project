@@ -38,20 +38,8 @@ Other information about the dataset:
 5.	The roadways traveling southward from Entrances 3 and 4 do continue to other roadways outside of the Preserve area, but these are not shown on the map.  Vehicle data will not reflect travel beyond the Preserve in this direction.  
 
 Data Snippet  (.csv format)
-Timestamp,car-id,car-type,gate-name
-2015-05-01 00:15:13,20151501121513-39,2,entrance4
-2015-05-01 00:32:47,20151501121513-39,2,entrance2
-2015-05-01 01:12:42,20151201011242-330,5,entrance0
-2015-05-01 01:14:22,20151201011242-330,5,general-gate1
-2015-05-01 01:17:13,20151201011242-330,5,ranger-stop2
-2015-05-01 01:20:36,20151201011242-330,5,ranger-stop0
-2015-05-01 01:24:11,20151201011242-330,5,general-gate2
-2015-05-01 01:46:16,20151201011242-330,5,entrance2
-2015-05-01 01:55:25,20155501015525-264,1,entrance0
-2015-05-01 01:56:53,20155501015525-264,1,general-gate1
-2015-05-01 01:59:27,20155501015525-264,1,ranger-stop2
-2015-05-01 02:02:27,20155501015525-264,1,ranger-stop0
-2015-05-01 02:05:39,20155501015525-264,1,general-gate2
+
+![alt text](data/data_snipet.JPG)
 
 
 Data Fields:
