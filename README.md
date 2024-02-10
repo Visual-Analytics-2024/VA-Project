@@ -262,14 +262,17 @@ The color of each entry represent Total cars who stayed at that gate on that mon
 
 **Insights**
 
-* ty
+* Car Types 1, 2, 2P, and 3 experience peak traffic during the morning, midday, and evening hours.
+
+* In contrast, Car Types 4, 5, and 6 exhibit a relatively even distribution of traffic across both day and night, with a slight increase in vehicles during nighttime
 
 ### Day of Week
 
 ![alt text](data/fig/pie_chart_day_of_week.png)
 
 **Insights**
-* hj
+* For all car types, weekend traffic accounts for approximately 30% of the total.
+
 
 
 
