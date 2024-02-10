@@ -246,6 +246,12 @@ The color of each entry represent Total cars who stayed at that gate on that mon
 ![alt text](data/fig/analomy_route.png)
 
 
+#TODO:
+1. Annimation for Netwrok analysis
+2. add box plots of traffif flux
+3. morning,evening, night,night
+
+
 
 
 
