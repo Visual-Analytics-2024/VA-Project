@@ -67,8 +67,8 @@ Gate-name: name of the sensors taking the reading.
 
 **Insights**
 
-* General Gates have the highest mean traffic flux except general Gate 0 and 3. As General gate 0 and 3 are at the boundaries of the park and only have 2 other sites directly connected to them. The less traffic expected.
-* Gates and ranger stops have the least mean traffic. This is also expected behavior as only ranger vehicles are allowed to pass Gates and will most likely visit ranger stops.
+* General Gates typically exhibit the highest average traffic flow, with the exception of Gates 0 and 3. These gates, located at the park boundaries and directly connected to only two other sites, are expected to experience lower traffic.
+* Gates and ranger stops experience the lowest average traffic. This aligns with expectations, as only ranger vehicles are permitted to pass through gates and are more likely to visit ranger stops.
 
 #TODO: Add mean STD cartype
 
@@ -82,20 +82,17 @@ Gate-name: name of the sensors taking the reading.
 
 ![alt text](data/fig/traffic_flux_gate_over_day_for_each_cartype.png)
 
-**Insights**
-
-* Car type 1,2 and 3, visit most during the period 05-2015 to 10-2015. i.e. Summer till mid-fall. As winter starts the traffic flux decreases and starts picking up in summer 2016.
-* Car type 4,5 and 6 have the same pattern just with less variance. 
-* Ranger Car 2P traffic movement is more or less the same throughout the year
-
-
 #### Aggregated over a week
 
 ![alt text](data/fig/traffic_flux_gate_over_week_for_each_cartype.png)
 
 **Insights**
 
-* Car type 4, 5 and 6 having 0 vehicles recorded for some weeks. 
+* Car types 1, 2, and 3 primarily visit during the period from 05-2015 to 10-2015, covering summer through mid-fall. As winter begins, traffic flux decreases, gradually picking up again in summer 2016.
+* Car types 4, 5, and 6 follow a similar pattern with slightly less variation.
+* The traffic movement of Ranger Car 2P remains relatively consistent throughout the year.
+
+* The park encounters days where there is no recorded traffic for car types 4, 5, and 6. 
 
 ### Traffic Flux at each Gate
 
@@ -103,13 +100,12 @@ Gate-name: name of the sensors taking the reading.
 
 ![alt text](data/fig/traffic_flux_at_each_gate_over_day_for_each_gate.png)
 
-**Insights**
-
-
 
 #### Aggregated over a week
 
 ![alt text](data/fig/traffic_flux_at_each_gate_over_week.png)
+
+**Insights**
 
 * Traffic tends to increase between 5-15 and 10-15 (summer and fall) for all gate names except "gate" and "ranger-stop," but decreases from 10-15 to 5-16 (winter and spring), and then begins to rise again from 6-2016
 * Traffic at "gate" and "ranger-stops" is more or less the same throughout the year.
@@ -132,6 +128,12 @@ Gate-name: name of the sensors taking the reading.
 Found 3 cars with unusual behavior the below tree doesn't include those 3 cars.
 
 ![alt text](data/fig/cartype1_without_analomy.png)
+
+**Insights**
+
+* The busiest routes are typically between nodes General Gates 1, 2, 4, 7, and Ranger Stop 0, 2.
+* Vehicles primarily stop at camping stops, with most popular sites 2,4,5, and 8.
+
 
 #### Anomaly
 
@@ -187,6 +189,7 @@ Please check the repeated behavior in below tree
 ![alt text](data/fig/cartype6.png)
 
 **Insights**
+
 * Car types 5 and 6 traverse identical routes within the park. They have a total of 20 distinct paths. Paths have minimum of 2 gates and a maximum of 9 gates.
 
 
@@ -201,6 +204,7 @@ The Assumption: If the car has two consecutive readings at the same gate it will
 #### Camping site
 
 ![alt text](data/fig/camping_distribution.png)
+
 
 #### Non Camping sites
 
