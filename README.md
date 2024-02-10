@@ -205,6 +205,9 @@ The Assumption: If the car has two consecutive readings at the same gate it will
 
 ![alt text](data/fig/camping_distribution.png)
 
+**Insights**
+* 
+* Camping 1 is the least prefrabe stop for camping for all cartypes
 
 #### Non Camping sites
 
