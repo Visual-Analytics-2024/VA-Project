@@ -260,13 +260,13 @@ Morning $\implies (6,10]$
 
 Midday $\implies (10,14] $
 
-Evening $ \implies (14,18] $
+Evening $\implies (14,18] $
 
-Night $ \implies (18,22]$
+Night $\implies (18,22]$
 
-Midday $ \implies (22,2]$
+Midday $\implies (22,2]$
 
-Dawn $ \implies (2,6]$
+Dawn $\implies (2,6]$
 
 Week is diveded into 2 parts as shown below
 
