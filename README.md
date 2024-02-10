@@ -254,6 +254,27 @@ The color of each entry represent Total cars who stayed at that gate on that mon
 
 ## A Time of Day and Day of Week  Analysis of Traffic.
 
+The day is segmented into six equal parts based on the specified times below.
+
+Morning $\implies (6,10]$
+
+Midday $\implies (10,14] $
+
+Evening $ \implies (14,18] $
+
+Night $ \implies (18,22]$
+
+Midday $ \implies (22,2]$
+
+Dawn $ \implies (2,6]$
+
+Week is diveded into 2 parts as shown below
+
+Weekend $\implies$ Sat, Sun.
+
+Weekdays $\implies$ Mon, Tue, Wed, Thu, Fri.
+
+
 ## Percenage analysis 
 
 ### Time of Day
