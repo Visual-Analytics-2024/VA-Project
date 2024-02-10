@@ -52,21 +52,29 @@ Data Snippet  (.csv format)
 
 Data Fields:
 
-Timestamp:  the date and time the sensor reading was taken
+Timestamp: the date and time the sensor reading was taken
 
-Car-id:  the assigned car ID from the entry gate
+Car-id: the assigned car ID from the entry gate
 
 Car-type: Vehicle type as enumerated above.  “P” is appended when it is a park vehicle.
 
-Gate-name:  name of the sensors taking the reading. 
-
-## Time Analysis of Traffic Flux
+Gate-name: name of the sensors taking the reading. 
+## Distribution Analysis 
 
 ### Mean and Std of Total Traffic Flux at each Gate
 
-![alt text](data/fig/mean_std_traffic_flux_gates.png)
+![alt text](data/fig/mean_std_traffic_flux_gates.png) 
 
-* Add insights 
+**Insights**
+
+* General Gates have the highest mean traffic flux except general Gate 0 and 3. As General gate 0 and 3 are at the boundaries of the park and only have 2 other sites directly connected to them. The less traffic expected.
+* Gates and ranger stops have the least mean traffic. This is also expected behavior as only ranger vehicles are allowed to pass Gates and will most likely visit ranger stops.
+
+#TODO: Add mean STD cartype
+
+
+## Time Analysis of Traffic Flux
+
 
 ### Traffic Flux by Car Type
 
@@ -74,13 +82,20 @@ Gate-name:  name of the sensors taking the reading.
 
 ![alt text](data/fig/traffic_flux_gate_over_day_for_each_cartype.png)
 
-* add insights
+**Insights**
+
+* Car type 1,2 and 3, visit most during the period 05-2015 to 10-2015. i.e. Summer till mid-fall. As winter starts the traffic flux decreases and starts picking up in summer 2016.
+* Car type 4,5 and 6 have the same pattern just with less variance. 
+* Ranger Car 2P traffic movement is more or less the same throughout the year
+
 
 #### Aggregated over a week
 
 ![alt text](data/fig/traffic_flux_gate_over_week_for_each_cartype.png)
 
-* add insights
+**Insights**
+
+* Car type 4, 5 and 6 having 0 vehicles recorded for some weeks. 
 
 ### Traffic Flux at each Gate
 
@@ -88,10 +103,17 @@ Gate-name:  name of the sensors taking the reading.
 
 ![alt text](data/fig/traffic_flux_at_each_gate_over_day_for_each_gate.png)
 
+**Insights**
+
+
+
 #### Aggregated over a week
 
 ![alt text](data/fig/traffic_flux_at_each_gate_over_week.png)
 
+* Traffic tends to increase between 5-15 and 10-15 (summer and fall) for all gate names except "gate" and "ranger-stop," but decreases from 10-15 to 5-16 (winter and spring), and then begins to rise again from 6-2016
+* Traffic at "gate" and "ranger-stops" is more or less the same throughout the year.
+* Gate 1 and 2, General gate 0, and all camping gates except Gate 8 experience days with no recorded traffic.
 ## Network Analysis
 
 ### Car Type 1
@@ -164,11 +186,9 @@ Please check the repeated behavior in below tree
 
 ![alt text](data/fig/cartype6.png)
 
-**Note : Car Type 5 and Car Type 6 follow the same route tree**
+**Insights**
+* Car types 5 and 6 traverse identical routes within the park. They have a total of 20 distinct paths. Paths have minimum of 2 gates and a maximum of 9 gates.
 
-## Distribution Analysis 
-
-TODO: Add distribution graph and box plots 
 
 ## Self Loop Analysis
 
