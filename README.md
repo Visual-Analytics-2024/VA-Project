@@ -252,6 +252,26 @@ The color of each entry represent Total cars who stayed at that gate on that mon
 3. morning,evening, night,night
 
 
+## A Time of Day and Day of Week  Analysis of Traffic.
+
+## Percenage analysis 
+
+### Time of Day
+
+![alt text](data/fig/pie_chart_time_of_day.png)
+
+**Insights**
+
+* ty
+
+### Day of Week
+
+![alt text](data/fig/pie_chart_day_of_week.png)
+
+**Insights**
+* hj
+
+
 
 
 
