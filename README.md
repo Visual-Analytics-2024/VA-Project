@@ -206,8 +206,9 @@ The Assumption: If the car has two consecutive readings at the same gate it will
 ![alt text](data/fig/camping_distribution.png)
 
 **Insights**
-* 
-* Camping 1 is the least prefrabe stop for camping for all cartypes
+
+* Camping Site 1 is the least preferable for camping.
+* Camping Sites 5, 8, and 2 are the most preferable options for camping.
 
 #### Non Camping sites
 
@@ -224,6 +225,15 @@ The color of each entry represent Total cars who stayed at that gate on that mon
 * Note: Total cars recorded at a site is different from total cars that stayed at the site.
 
 ![alt text](data/fig/heatmap.png)
+
+**Insights**
+
+* Typically, car types 1, 2, and 3 make stops at camping sites.
+* Car types 4, 5, and 6 never halt at camping sites.
+* Few cars visit camping site 1.
+* During June, July, August, and September, the highest number of cars visit camping sites.
+* From November to February, there are almost no cars visiting the camping sites.
+* The average time spent at camping sites generally mirrors this pattern. Therefore, there is plenty of space available for camping visitors at each site.
 
 ## Analysing Ground Truth
 
