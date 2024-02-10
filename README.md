@@ -121,6 +121,11 @@ Gate-name: name of the sensors taking the reading.
 
 ![alt text](data/fig/DirectionalGraph.png)
 
+**Insights**
+
+* The busiest routes are typically between nodes General Gates 1, 2, 4, 7, and Ranger Stop 0, 2.
+* Vehicles primarily stop at camping stops, with most popular sites 2,4,5, and 8.
+
 ## Route Analysis (Tree)
 
 ### Car Type 1
@@ -128,11 +133,6 @@ Gate-name: name of the sensors taking the reading.
 Found 3 cars with unusual behavior the below tree doesn't include those 3 cars.
 
 ![alt text](data/fig/cartype1_without_analomy.png)
-
-**Insights**
-
-* The busiest routes are typically between nodes General Gates 1, 2, 4, 7, and Ranger Stop 0, 2.
-* Vehicles primarily stop at camping stops, with most popular sites 2,4,5, and 8.
 
 
 #### Anomaly
