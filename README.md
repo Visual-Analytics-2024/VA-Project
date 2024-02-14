@@ -130,10 +130,16 @@ Gate-name: name of the sensors taking the reading.
 
 ### Car Type 1
 
-Found 3 cars with unusual behavior the below tree doesn't include those 3 cars.
+
+![alt text](data/fig/cartype1.png)
+
+Found 3 paths that are longer the usual paths taken.
+
+Below graph shows the car type 1 routes excludes the 3 paths mentioned above.
 
 ![alt text](data/fig/cartype1_without_analomy.png)
 
+After analyzing the data we saw the those paths are only taken by 3 cars. (data stored in data/stayed_to_long folder.)
 
 #### Anomaly
 
@@ -152,9 +158,15 @@ Check the below graph for repeated behavior for (1) and (2)
 
 ### Car Type 2 
 
-Found 1 cars with unusual behavior the below tree doesn't include that cars.
+![alt text](data/fig/cartype2.png)
+
+Found 1 path that is longer than usual paths.
+
+Below graph shows the car type 2 routes excludes the 1 path mentioned above.
 
 ![alt text](data/fig/cartype2_without_analomy.png)
+
+After analyzing the data we saw the that path is only taken by 1 car. (data stored in data/stayed_to_long folder.)
 
 #### Anomaly
 
@@ -294,6 +306,22 @@ Weekdays $\implies$ Mon, Tue, Wed, Thu, Fri.
 **Insights**
 * For all car types, weekend traffic accounts for approximately 30% of the total.
 
+
+## Animation
+
+**In progress**
+
+## Barchart
+
+An animated display featuring cars at various entrances, progressing with each timestamp to visualize data on an hourly basis.
+
+[text](Python/Notebooks/bar_animation.html)
+
+## Network Animation
+
+Animation showing traffic at each gate and on each route, progressing with each timestamp to visualize data on an hourly basis.
+
+click [here](https://drive.google.com/file/d/1SzFCRIM_3UDFgFW9gq8X9iDZruyGLkE8/view?usp=sharing) to see the animation.
 
 
 
