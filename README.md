@@ -313,7 +313,7 @@ Weekdays $\implies$ Mon, Tue, Wed, Thu, Fri.
 
 An animated display featuring cars at various entrances, progressing with each timestamp to visualize data on an hourly basis.
 
-click [here](Python/Notebooks/bar_animation.html) to see the animation
+click [here](https://github.com/Visual-Analytics-2024/VA-Project/blob/wajid/Python/Notebooks/bar_animation.html) to see the animation
 
 ## Network Animation
 
