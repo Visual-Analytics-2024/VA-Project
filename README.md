@@ -70,7 +70,10 @@ Gate-name: name of the sensors taking the reading.
 * General Gates typically exhibit the highest average traffic flow, with the exception of Gates 0 and 3. These gates, located at the park boundaries and directly connected to only two other sites, are expected to experience lower traffic.
 * Gates and ranger stops experience the lowest average traffic. This aligns with expectations, as only ranger vehicles are permitted to pass through gates and are more likely to visit ranger stops.
 
-#TODO: Add mean STD cartype
+**TODO:** 
+1. Add mean STD graph of cartypes.
+2. Analyze traffic at each gate or of each cartype or selfloop traffic to see if they follow any standard distribution.
+3. Add box plots of the said distributions
 
 
 ## Time Analysis of Traffic Flux
@@ -258,11 +261,6 @@ The color of each entry represent Total cars who stayed at that gate on that mon
 ![alt text](data/fig/analomy_route.png)
 
 
-#TODO:
-1. Annimation for Netwrok analysis
-2. add box plots of traffif flux
-3. morning,evening, night,night
-
 
 ## A Time of Day and Day of Week  Analysis of Traffic.
 
@@ -315,13 +313,17 @@ Weekdays $\implies$ Mon, Tue, Wed, Thu, Fri.
 
 An animated display featuring cars at various entrances, progressing with each timestamp to visualize data on an hourly basis.
 
-[text](Python/Notebooks/bar_animation.html)
+click [here](C:\Users\18565\Desktop\Classes\VA\Project\Code\VA-Project\Python\Notebooks\bar_animation.html) to see the animation
 
 ## Network Animation
 
 Animation showing traffic at each gate and on each route, progressing with each timestamp to visualize data on an hourly basis.
 
 click [here](https://drive.google.com/file/d/1SzFCRIM_3UDFgFW9gq8X9iDZruyGLkE8/view?usp=sharing) to see the animation.
+
+
+## TODO
+1. Treat traffic a each gate for a particular car a time series (time aggregated over hour, count of cars at that gate as value) and apply ETS-Decomposition to check for trend and seasonality. 
 
 
 
