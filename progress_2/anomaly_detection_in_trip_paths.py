@@ -138,21 +138,13 @@ def create_figure(filtered_od_counts):
 
     fig.update_layout(
         xaxis_visible=False, yaxis_visible=False, plot_bgcolor='white',
-        # legend_title="Gate Types",
-        # legend=dict(
-        #     yanchor="top",
-        #     y=0.99,
-        #     xanchor="right",
-        #     x=0.01
-        # ),
         margin=dict(l=300, r=300, t=0, b=0),
         # width=600,
         # height=600,
     )
 
-    # Display the figure with the updated layout
-    # fig.show(config={'scrollZoom': True})
     return fig
+
 
 prefixes_colors = {
     'gate': '#e88693',
@@ -189,9 +181,6 @@ app.layout = html.Div([
             step=1,
         ),
     ], style={
-        # 'padding-top': '10px',
-        # 'padding-left': '300px',
-        # 'padding-right': '300px'
         'position': 'absolute',
         'top': '70px',
         'left': '300px',
@@ -297,8 +286,6 @@ app.layout = html.Div([
             labelStyle={'display': 'block'}
         )
     ], style={
-        # 'paddingTop': '5px',
-        # 'padding-left': '20px'
         'position': 'absolute',
         'top': '130px',
         'left': '600px',
